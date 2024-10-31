@@ -13,7 +13,15 @@
       "description": "Hamburguer",
       "type": "outcome",
       "category": "Alimentação",
-      "price": 50,
+      "price": 60,
+      "createdAt": "2024-10-31T18:45:38.343Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
       "createdAt": "2024-10-31T18:45:38.343Z"
     }
   ]

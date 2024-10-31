@@ -5,6 +5,7 @@ import { SearchForm } from "../../components/SearchForm";
 import { Summary } from "../../components/Summary";
 import { PriceHighLight, TransactionsContainer, TransactionsTable } from "./styles";
 import { TransactionsContext } from '../../contexts/TransactionsContext';
+import { dateFormatter, priceFormatter } from '../../utils/formatter';
 
 export function Transactions() {
 
@@ -28,11 +29,12 @@ export function Transactions() {
                     <td width="50%">{description}</td>
                     <td>
                       <PriceHighLight variant={type}>
-                        R$ {price}
+                        {transaction.type === 'outcome' && ' - '}
+                        {priceFormatter.format(price)}
                       </PriceHighLight>
                     </td>
                     <td>{category}</td>
-                    <td>{createdAt}</td>
+                    <td>{dateFormatter.format(new Date(createdAt))}</td>
                   </tr>
 
                 )
