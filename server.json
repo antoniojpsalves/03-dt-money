@@ -23,6 +23,46 @@
       "category": "Educação",
       "price": 1980,
       "createdAt": "2024-10-31T18:45:38.343Z"
+    },
+    {
+      "category": "venda",
+      "description": "Desenvolvimento de app",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2024-10-31T21:35:23.682Z",
+      "id": 4
+    },
+    {
+      "category": "Alimentação",
+      "description": "Pastel",
+      "price": 8,
+      "type": "outcome",
+      "createdAt": "2024-10-31T21:42:47.439Z",
+      "id": 5
+    },
+    {
+      "category": "Alimentação",
+      "description": "lanche",
+      "price": 55,
+      "type": "outcome",
+      "createdAt": "2024-10-31T21:51:45.529Z",
+      "id": 6
+    },
+    {
+      "category": "Alimentação",
+      "description": "batata frita",
+      "price": 15,
+      "type": "outcome",
+      "createdAt": "2024-10-31T21:53:22.050Z",
+      "id": 7
+    },
+    {
+      "category": "Games",
+      "description": "skin no valorant",
+      "price": 80,
+      "type": "outcome",
+      "createdAt": "2024-10-31T21:53:44.587Z",
+      "id": 8
     }
   ]
 }
